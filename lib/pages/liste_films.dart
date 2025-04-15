@@ -68,7 +68,7 @@ class _ListeFilmsState extends State<ListeFilms> {
                   iconVisible = const Icon(Icons.cancel);
                   barreRecherche = TextField(
                     textInputAction: TextInputAction.search,
-                    style: const TextStyle(color: Colors.white, fontSize: 20.0),
+                    style: const TextStyle(color: Colors.black, fontSize: 20.0),
                     onSubmitted: (String texte) {
                       rechercher(texte);
                     },
